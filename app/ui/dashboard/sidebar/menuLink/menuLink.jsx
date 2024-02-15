@@ -7,6 +7,7 @@ const MenuLink = ({item}) => {
             {item.icon}
             {item.title}
         </Link>
+        
     )
 }
 

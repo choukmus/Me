@@ -105,11 +105,15 @@ const Sidebar = () => {
                         {cat.list.map((item) => (
                             <MenuLink item={item} key={item.title} />
                         ))}
-                        {cat.title}
+                        
                     </li>
                 ))}
                 
             </ul>
+            <button className={styles.lougout}>
+              <MdLogout />
+              Logout
+            </button>
         </div>
     )
 }
